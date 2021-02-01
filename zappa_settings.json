@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "app_function": "app.app",
+    "aws_region": "us-east-2",
+    "profile_name": "default",
+    "project_name": "lms-api",
+    "runtime": "python3.6",
+    "s3_bucket": "lms-deployment-bucket",
+    "vpc_config": {
+      "SecurityGroupIds": ["sg-0af54908c15bee9b3"],
+      "SubnetIds": ["subnet-0f1292aa0944b4610"]
+    },
+    "aws_environment_variables": {
+      "SQLALCHEMY_DATABASE_URI": "postgresql://postgres:3ophiwiyut2epehu@leavemanagement.cwvq5urgcnxi.us-east-2.rds.amazonaws.com/leavemangementdb"
+    }
+  }
+}

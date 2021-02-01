@@ -1,0 +1,1 @@
+export SQLALCHEMY_DATABASE_URI='postgresql://postgres:3ophiwiyut2epehu@leavemanagement.cwvq5urgcnxi.us-east-2.rds.amazonaws.com/leavemangementdb'
